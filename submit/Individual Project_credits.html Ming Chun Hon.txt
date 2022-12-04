@@ -1,0 +1,131 @@
+﻿Student Name: Hon Ming Chun
+Student ID: 301250853
+Program: COMP-213
+Section: Individual Project
+<html>
+  <head>
+    <link rel="stylesheet" href="style-house.css" />
+    <link rel="icon" type="image/x-icon" href="icon.jpeg" />
+  </head>
+  <body>
+    <a href="index.html">
+      <div class="header">
+        <img src="icon.svg" width="30%" height="100%" alt="" />
+      </div>
+    </a>
+
+
+    <div class="headerMenu">
+      <a class="headerBar" href="index.html#mission"
+        ><div class="headerItem">Our Mission</div></a
+      >
+      <a class="headerBar" href="index.html#customer-feedback"
+        ><div class="headerItem">Customer Feedback</div></a
+      >
+      <a class="headerBar" href="houses.html"
+        ><div class="headerItem">Properties for sale!</div></a
+      >
+    </div>
+
+
+    <h2 style="text-align: center">Site Map and Credits</h2>
+    <div class="Reference">
+      <div class="siteMap">
+        <table>
+          <tr>
+            <td>Home Page:</td>
+            <td>
+              <a href="index.html">
+                <button class="site">Click here!</button>
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>Houses Page:</td>
+            <td>
+              <a href="houses.html">
+                <button class="site">Click here!</button>
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>House 1 Page:</td>
+
+
+            <td>
+              <a href="house-1.html"
+                ><button class="site">Click here!</button>
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>House 2 Page:</td>
+            <td>
+              <a href="house-2.html">
+                <button class="site">Click here!</button>
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>House 3 Page:</td>
+            <td>
+              <a href="house-3.html">
+                <button class="site">Click here!</button>
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>Customer Form Page:</td>
+            <td>
+              <a href="form.html">
+                <button class="site">Click here!</button>
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>Site Map and Credits Page:</td>
+            <td>
+              <a href="Credits.html">
+                <button class="site">Click here!</button>
+              </a>
+            </td>
+          </tr>
+        </table>
+      </div>
+
+
+      <h2>Credits</h2>
+      <p>House 1</p>
+      <a
+        href="https://www.realtor.ca/real-estate/25108701/276-3rd-avenue-w-melville"
+        >https://www.realtor.ca/real-estate/25108701/276-3rd-avenue-w-melville</a
+      >
+      <br />
+      <p>House 2</p>
+      <a
+        href="https://www.realtor.ca/real-estate/25103732/624-e-5th-avenue-prince-rupert"
+        >https://www.realtor.ca/real-estate/25103732/624-e-5th-avenue-prince-rupert</a
+      >
+      <br />
+      <p>House 3</p>
+      <a
+        href="https://www.realtor.ca/real-estate/25101922/b-104-keewenaw-drive-whitehorse"
+        >https://www.realtor.ca/real-estate/25101922/b-104-keewenaw-drive-whitehorse</a
+      >
+
+
+      <p>Random People</p>
+      <a href="https://unsplash.com/s/photos/random-people"
+        >https://unsplash.com/s/photos/random-people</a
+      >
+      <br />
+      <a
+        href="https://www.facebook.com/559332881144612/photos/a.585881958489704/585881911823042/?type=3"
+        >https://www.facebook.com/559332881144612/photos/a.585881958489704/585881911823042/?type=3</a
+      >
+      <br />
+      <p>Brand Icon</p>
+      <a href="https://www.realtor.ca/">https://www.realtor.ca/</a>
+    </div>
+  </body>
+</html>

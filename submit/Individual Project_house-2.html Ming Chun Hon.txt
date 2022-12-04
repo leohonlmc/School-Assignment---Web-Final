@@ -1,0 +1,97 @@
+﻿Student Name: Hon Ming Chun
+Student ID: 301250853
+Program: COMP-213
+Section: Individual Project
+<html>
+  <head>
+    <link rel="stylesheet" href="style-house.css" />
+    <link rel="icon" type="image/x-icon" href="icon.jpeg" />
+  </head>
+  <body>
+    <a href="index.html">
+      <div class="header">
+        <img src="icon.svg" width="30%" height="100%" alt="" />
+      </div>
+    </a>
+
+
+    <div class="headerMenu">
+      <a class="headerBar" href="index.html#mission">
+        <div class="headerItem">Our Mission</div></a
+      >
+      <a class="headerBar" href="index.html#customer-feedback">
+        <div class="headerItem">Customer Feedback</div></a
+      >
+      <a class="headerBar" href="Credits.html"
+        ><div class="headerItem">Site Map and Credits</div></a
+      >
+    </div>
+
+
+    <div class="house-div">
+      <table style="width: 90%">
+        <tr>
+          <th class="house-pic">
+            <img src="house-2.jpeg" width="450" height="300px" />
+            <img src="house-2.1.jpeg" width="450" height="300px" alt="" />
+            <img src="house-2.2.jpeg" width="450" height="300px" alt="" />
+            <img src="house-2.3.jpeg" width="450" height="300px" alt="" />
+          </th>
+
+
+          <th class="house-info">
+            <p style="font-size: 25px">624 E 5TH AVENUE</p>
+            <p style="font-size: 20px">CAD$405,000</p>
+            <p style="font-weight: normal; width: 300px">
+              * PREC - Personal Real Estate Corporation. This charming 3 bedroom
+              home is conveniently located close to schools, walking trails and
+              downtown core. Notable exterior upgrades include siding, roof,
+              windows and tasteful landscaping. Inside you’ll find wood floors,
+              fresh paint colors and a bright eat in kitchen. The upper level
+              has a spacious bedroom/loft area. The partially finished basement
+              features a workshop, excellent storage and a rec room area. Off
+              street parking can be found at the rear of the property in a
+              no-through lane. (27844421)
+            </p>
+
+
+            <p>Property Summary</p>
+
+
+            <table>
+              <tr class="table-row" style="background-color: lightblue">
+                <th class="table-header">Property Type</th>
+                <th class="table-header">Building Type</th>
+                <th class="table-header">Storeys</th>
+                <th class="table-header">Square Footage</th>
+              </tr>
+
+
+              <tr class="table-row">
+                <th class="table-header">Single Family</th>
+                <th class="table-header">House</th>
+                <th class="table-header">3</th>
+                <th class="table-header">1402 sqft</th>
+              </tr>
+              <tr class="table-row" style="background-color: lightblue">
+                <th class="table-header">Land Size</th>
+                <th class="table-header">Built in</th>
+                <th class="table-header">Annual Property Taxes</th>
+                <th class="table-header">Parking Type</th>
+              </tr>
+
+
+              <tr class="table-row">
+                <th class="table-header">4600 sqft</th>
+                <th class="table-header">1951</th>
+                <th class="table-header">$2,585.21</th>
+                <th class="table-header">Open</th>
+              </tr>
+            </table>
+          </th>
+        </tr>
+      </table>
+    </div>
+    <a href="houses.html"><button class="goBack">Go Back</button></a>
+  </body>
+</html>

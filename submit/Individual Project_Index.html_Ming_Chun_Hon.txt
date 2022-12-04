@@ -1,0 +1,206 @@
+﻿Student Name: Hon Ming Chun
+Student ID: 301250853
+Program: COMP-213
+Section: Individual Project
+
+
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="icon.jpeg" />
+
+
+  </head>
+  <body>
+    <div class="header">
+      <img src="icon.svg" width="30%" height="100%" alt="" />
+    </div>
+
+
+    <div class="headerMenu">
+      <a class="headerBar" href="#mission"><div class="headerItem">Our Mission</div></a>
+      <a class="headerBar" href="#customer-feedback"><div class="headerItem">Customer Feedback</div></a>
+      <a class="headerBar" href="houses.html"><div class="headerItem">Properties for sale!</div></a>
+      <a class="headerBar" href="Credits.html"><div class="headerItem">Site Map and Credits</div></a>
+    </div>
+
+
+    </div>
+
+
+    <div class="picSlides fade">
+        <img src="house-1.jpeg" style="width: 100%; height: 750px" />
+      </div>
+
+
+      <div class="picSlides fade">
+        <img src="house-2.jpeg" style="width: 100%; height: 750px" />
+      </div>
+
+
+      <div class="picSlides fade">
+        <img src="house-3.jpeg" style="width: 100%; height: 750px" />
+      </div>
+    </div>
+    <br />
+
+
+    <div style="text-align: center">
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+
+
+    <h1 style="text-align: center; margin-top: 100px">Our Mission</h1>
+
+
+    <section id="mission">
+        <table>
+            <tr>
+                <th>Knowledgeable</th>
+                <th>Connected</th>
+                <th>Passionate</th>
+            </tr>
+            <tr>
+                <td>
+                    <img src="knowledge.webp" style="width: 200px; " alt="">
+                </td>
+                <td>
+                    <img src="connected.gif" style="width: 200px; height:150px" alt="">
+                </td>
+                <td>
+                    <img src="passionate.jpeg" style="width: 200px; height: 150px" alt="">
+                </td>
+            </tr>
+                
+            <tr>
+                <td>We strive to understand our markets and our client's needs.</td>
+                <td>Relationships are everything to us; we connect people to their homes and to their communities.</td>
+                <td>We believe that working with "all heart" can change the world.</td>
+            </tr>
+            <tr>
+                <th>Playful</th>
+                <th>Upstanding</th>
+                <th>Effective</th>
+            </tr>
+
+
+            <tr>
+                <td>
+                    <img src="playful.jpeg" style="width: 200px; height: 150px" alt="">
+                </td>
+
+
+                <td>
+                    <img src="upstanding.webp" style="width: 200px; height: 150px " alt="">
+                </td>
+
+
+                <td>
+                    <img src="effective.jpeg" style="width: 200px; height: 150px" alt="">
+                </td>
+            </tr>
+
+
+            <tr>
+                <td>We love what we do and it shows.</td>
+                <td>Our client's needs and best interests are at the heart of everything we do.</td>
+                <td>We set a high bar and move mountains to exceed expectations.</td>
+            </tr>
+        </table>
+        
+    </section>
+
+
+    <hr style="width:80%; margin: 150px auto 150px auto">
+
+
+    <section id="customer-feedback">
+
+
+        <h1 style="text-align: center; margin-top: 100px">Customer Feedback</h1>
+
+
+        <div class="customer-1">
+            <!-- <img style="width: 200px; border-radius: 10px" src="random-1.jpeg"  alt=""> -->
+            <div>
+                <img src="random-1.jpeg" style="width: 250px; border-radius: 10px" alt="">
+                <p>"Thank you Realtor.ca for helping me find the best deal out of the market, they provide prompt reply and professional advices."</p> <p class="customer-name">John</p>
+            </div>
+            <div>
+                <img src="random-2.jpeg" style="width: 250px; border-radius: 10px" alt="">
+                <p>"Realtor.ca makes my renting house experience more handy. It helps me to find my ideal house within 2 days."</p> <p class="customer-name">Kelly</p>
+            </div>
+            <div>
+                <img src="random-3.jpeg" style="width: 250px; border-radius: 10px" alt="">
+                <p>"All the pics provided in this website is 100% real without filtering, I am so satisfied when the house look exactly the same!"</p> <p class="customer-name">Paul</p>
+            </div>
+        </div>
+
+
+        <div class="footer">
+            <div class="page" style="right: 40px">
+              <h3 style="margin-left: 20px">
+                &copy; Copyright Hon Ming Chun - 301250853 - COMP213 - Fall 2022
+              </h3>
+            </div>
+            
+    </section>
+    
+
+
+    <script>
+        let slideIndex = 0;
+        showSlides();
+  
+        function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("picSlides");
+          let dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {
+            slideIndex = 1;
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex - 1].style.display = "block";
+          dots[slideIndex - 1].className += " active";
+          setTimeout(showSlides, 4000);
+        }
+  
+        function showContent() {
+          var temp = document.getElementById("content-div");
+          if (temp.style.display === "block") {
+            temp.style.display = "none";
+          } else {
+            temp.style.display = "block";
+          }
+        }
+  
+        function showContent2() {
+          var temp = document.getElementById("content-div-2");
+          if (temp.style.display === "block") {
+            temp.style.display = "none";
+          } else {
+            temp.style.display = "block";
+          }
+        }
+  
+        function showContent3() {
+          var temp = document.getElementById("content-div-3");
+          if (temp.style.display === "block") {
+            temp.style.display = "none";
+          } else {
+            temp.style.display = "block";
+          }
+        }
+    </script>
+  </body>
+
+
+</html>

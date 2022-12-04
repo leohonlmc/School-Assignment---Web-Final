@@ -1,0 +1,102 @@
+﻿Student Name: Hon Ming Chun
+Student ID: 301250853
+Program: COMP-213
+Section: Individual Project
+<html>
+  <head>
+    <link rel="stylesheet" href="style-house.css" />
+    <link rel="icon" type="image/x-icon" href="icon.jpeg" />
+  </head>
+  <body>
+    <a href="index.html">
+      <div class="header">
+        <img src="icon.svg" width="30%" height="100%" alt="" />
+      </div>
+    </a>
+
+
+    <div class="headerMenu">
+      <a class="headerBar" href="index.html#mission">
+        <div class="headerItem">Our Mission</div></a
+      >
+      <a class="headerBar" href="index.html#customer-feedback">
+        <div class="headerItem">Customer Feedback</div></a
+      >
+      <a class="headerBar" href="Credits.html"
+        ><div class="headerItem">Site Map and Credits</div></a
+      >
+    </div>
+
+
+    <div class="house-div">
+      <table style="width: 90%">
+        <tr>
+          <th class="house-pic">
+            <img src="house-3.jpeg" width="450" height="300px" />
+            <img src="house-3.1.jpeg" width="450" height="300px" alt="" />
+            <img src="house-3.2.jpeg" width="450" height="300px" alt="" />
+            <img src="house-3.3.jpeg" width="450" height="300px" alt="" />
+          </th>
+
+
+          <th class="house-info">
+            <p style="font-size: 25px">B-104 KEEWENAW DRIVE</p>
+            <p style="font-size: 20px">CAD$524,900</p>
+            <p style="font-weight: normal; width: 300px">
+              Location Second to None!! Quality, custom-designed duplex resting
+              directly across from endless green space, with access to Copper
+              Ridge's unlimited trail network. This 3 bedroom, 2.5 bath home
+              boasts slate tiled entries, hardwood flooring, a propane
+              fireplace, granite counter tops, maple kitchen cabinetry, and
+              gorgeous mountain views! The main floor offers open-concept
+              kitchen and dining with access to a fantastic, covered deck. Stay
+              warm and cozy in front of the living room's inviting propane
+              fireplace. Tiled access to the garage, and a 2-piece bath complete
+              the main floor. The upper floor features a large primary bedroom
+              with a 3-piece ensuite including a tiled shower. There are two
+              additional bedrooms and a full bathroom. This corner lot is fully
+              landscaped with raised flower beds, a fully fenced back yard, and
+              a concrete driveway leading to the single car garage. This
+              property is a must see! Call your Realtor today for your own
+              private viewing! (25116570)
+            </p>
+
+
+            <p>Property Summary</p>
+
+
+            <table>
+              <tr class="table-row" style="background-color: lightblue">
+                <th class="table-header">Property Type</th>
+                <th class="table-header">Building Type</th>
+                <th class="table-header">Title</th>
+                <th class="table-header">Square Footage</th>
+              </tr>
+
+
+              <tr class="table-row">
+                <th class="table-header">Single Family</th>
+                <th class="table-header">Duplex</th>
+                <th class="table-header">3</th>
+                <th class="table-header">1700 sqft</th>
+              </tr>
+              <tr class="table-row" style="background-color: lightblue">
+                <th class="table-header">Land Size</th>
+                <th class="table-header">Built in</th>
+                <th class="table-header">Time on REALTOR.ca</th>
+              </tr>
+
+
+              <tr class="table-row">
+                <th class="table-header">4617 sqft</th>
+                <th class="table-header">2008</th>
+                <th class="table-header">4 days</th>
+              </tr>
+            </table>
+          </th>
+        </tr>
+      </table>
+    </div>
+    <a href="houses.html"><button class="goBack">Go Back</button></a>
+  </body>
+</html>

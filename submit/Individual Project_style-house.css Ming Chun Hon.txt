@@ -1,0 +1,323 @@
+﻿Student Name: Hon Ming Chun
+Student ID: 301250853
+Program: COMP-213
+Section: Individual Project
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(243, 240, 240, 0.973);
+}
+
+
+.header {
+  padding: 0;
+  height: 10%;
+  background-color: rgb(209, 15, 15);
+  text-align: center;
+}
+
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+.headerMenu {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  line-height: 50px;
+  border: solid lightgrey 0.3px;
+}
+
+
+.headerMenu > a {
+  background-color: white;
+  flex: 1 1 150px;
+  text-align: center;
+  width: 500px;
+  border-left: solid lightgrey 0.2px;
+  display: block;
+  font-size: 15px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #333;
+  border-top: 2px solid #333;
+  border-bottom: 2px solid #333;
+  padding: 5px;
+  transition: all 0.25s;
+}
+
+
+.headerBar:hover {
+  letter-spacing: 5px;
+  background-color: rgb(247, 247, 208);
+}
+
+
+.pr {
+  border-radius: 10px;
+  border: solid lightgray;
+  padding: 10px;
+  background-color: white;
+}
+
+
+.pr:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+}
+
+
+.pr-1 {
+  border-radius: 10px;
+  border: solid lightgray;
+  padding: 10px;
+  background-color: white;
+}
+
+
+.pr-1:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+}
+
+
+.house-info {
+  text-align: left;
+  border: solid lightgrey;
+  padding: 10px;
+  background-color: white;
+  width: 300px;
+}
+
+
+.house-info:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+}
+
+
+.house-div {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px auto 50px auto;
+}
+
+
+.house-pic:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 5px;
+  height: 50%;
+  border-radius: 10px;
+}
+
+
+.column:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+  border-radius: 10px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.goBack,
+.form,
+.site {
+  background-color: rgb(182, 20, 20);
+  border: none;
+  color: white;
+  padding: 10px 27px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  margin-left: 2%;
+  border-radius: 10px;
+}
+
+
+.goBack:hover,
+.form:hover {
+  background-color: rgb(216, 18, 18);
+  box-shadow: 0 16px 16px 0 rgba(0, 0, 0, 0.24),
+    0 30px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.form {
+  margin: 30px;
+}
+
+
+/* ********* */
+
+
+.range_container {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 40px auto 10px auto;
+}
+
+
+.sliders_control {
+  position: relative;
+  min-height: 50px;
+  margin-left: 2%;
+}
+
+
+.form_control {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  font-size: 24px;
+  color: #635a5a;
+}
+
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  pointer-events: all;
+  width: 24px;
+  height: 24px;
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px #c6c6c6;
+  cursor: pointer;
+}
+
+
+input[type="range"]::-moz-range-thumb {
+  -webkit-appearance: none;
+  pointer-events: all;
+  width: 24px;
+  height: 24px;
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px #c6c6c6;
+  cursor: pointer;
+}
+
+
+input[type="range"]::-webkit-slider-thumb:hover {
+  background: #f7f7f7;
+}
+
+
+input[type="range"]::-webkit-slider-thumb:active {
+  box-shadow: inset 0 0 3px #387bbe, 0 0 9px #387bbe;
+  -webkit-box-shadow: inset 0 0 3px #387bbe, 0 0 9px #387bbe;
+}
+
+
+input[type="number"] {
+  color: #8a8383;
+  width: 100px;
+  height: 30px;
+  font-size: 20px;
+  border: none;
+}
+
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  opacity: 1;
+}
+
+
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  background-color: #c6c6c6;
+  pointer-events: none;
+}
+
+
+#fromSlider {
+  height: 0;
+  z-index: 1;
+}
+
+
+/* ******************** */
+
+
+.cs-form {
+  width: 400px;
+  background-color: lightgrey;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 50px auto 100px auto;
+}
+
+
+.btns > .submit {
+  margin-top: 5%;
+  margin-left: 20%;
+}
+
+
+.btns > .reset {
+  margin-left: 10%;
+}
+
+
+.btns > input {
+  width: 25%;
+  height: 5%;
+  border: none;
+  outline: none;
+  background: #2f2f2f;
+  color: #fff;
+  font-size: 100%;
+  border-radius: 40px;
+  text-align: center;
+  box-shadow: 0 6px 20px -5px rgba(0, 0, 0, 0.4);
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+
+.comment {
+  margin-top: 5%;
+  margin-left: 16%;
+  border-radius: 5px;
+}
+
+
+.reference {
+  width: 700px;
+  background-color: lightgrey;
+  margin-left: 25%;
+  padding: 1%;
+  border-radius: 10px;
+}
+
+
+.siteMap {
+  margin: auto 10% auto 25%;
+}

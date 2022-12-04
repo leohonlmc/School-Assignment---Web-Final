@@ -1,0 +1,93 @@
+﻿Student Name: Hon Ming Chun
+Student ID: 301250853
+Program: COMP-213
+Section: Individual Project
+<html>
+  <head>
+    <link rel="stylesheet" href="style-house.css" />
+    <link rel="icon" type="image/x-icon" href="icon.jpeg" />
+  </head>
+  <body>
+    <a href="index.html">
+      <div class="header">
+        <img src="icon.svg" width="30%" height="100%" alt="" />
+      </div>
+    </a>
+
+
+    <div class="headerMenu">
+      <a class="headerBar" href="index.html#mission">
+        <div class="headerItem">Our Mission</div></a
+      >
+      <a class="headerBar" href="index.html#customer-feedback">
+        <div class="headerItem">Customer Feedback</div></a
+      >
+      <a class="headerBar" href="Credits.html"
+        ><div class="headerItem">Site Map and Credits</div></a
+      >
+    </div>
+
+
+    <h2 style="text-align: center">Check out the properties on sale!</h2>
+
+
+    <div class="row">
+      <div class="column" style="background-color: white">
+        <a href="house-1.html">
+          <img src="house-1.jpeg" alt="" style="width: 100%" />
+          <p class="price">CAD$169,000</p>
+          <p class="address" style="font-size: 100%; width: 100%">
+            276 3rd AVENUE W Melville, Saskatchewan S0A2P0
+          </p>
+        </a>
+      </div>
+      <div class="column" style="background-color: white">
+        <a href="house-2.html">
+          <img src="house-2.jpeg" alt="" style="width: 100%" />
+          <p class="price">CAD$405,000</p>
+          <p class="address" style="font-size: 100%; width: 100%">
+            624 E 5TH AVENUE Prince Rupert, British Columbia V8J1S5
+          </p>
+        </a>
+      </div>
+      <div class="column" style="background-color: white">
+        <a href="house-3.html">
+          <img src="house-3.jpeg" alt="" style="width: 100%" />
+          <p class="price">CAD$524,900</p>
+          <p class="address" style="font-size: 100%; width: 100%">
+            B-104 KEEWENAW DRIVE Whitehorse, Yukon Y1A0B5
+          </p>
+        </a>
+      </div>
+
+
+      <div class="column">
+        <div class="pr">
+          <p style="font-weight: bold; font-size: 16px">
+            RE/MAX Coast Mountains (PR)
+          </p>
+          <p>519 3rd Ave West</p>
+          <p>Prince Rupert, British Columbia V8J1L9</p>
+          <p>mobile: 250-624-9444</p>
+          <p>company: 250-638-1422</p>
+        </div>
+
+
+        <br />
+
+
+        <div class="pr-1">
+          <p style="font-weight: bold; font-size: 16px">URBAN REALTY GROUP</p>
+          <p>2054 Second Avenue</p>
+          <p>Whitehorse, YT, Yukon Y1A1A8</p>
+          <p>mobile: 867-322-8726</p>
+        </div>
+      </div>
+    </div>
+
+
+    <a href="form.html"
+      ><button class="form">What us to lookup your ideal house?</button></a
+    >
+  </body>
+</html>
