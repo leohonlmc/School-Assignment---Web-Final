@@ -39,7 +39,12 @@ Section: Individual Project
 
 
     <div class="cs-form">
-      <form action="welcome.php" method="post">
+      <form
+        action="mailto:mhon5@my.centennialcollege.ca
+      "
+        method="get"
+        enctype="text/plain"
+      >
         <table>
           <tr>
             <td><label for="firstName">First Name:</label></td>
@@ -145,7 +150,7 @@ Section: Individual Project
 
 
         <div class="btns">
-          <input class="submit" type="submit" />
+          <input class="submit" type="submit" value="send" />
           <input class="reset" type="reset" />
         </div>
       </form>
